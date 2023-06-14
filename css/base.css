@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(135deg, rgb(60, 189, 0), rgb(23, 149, 233), rgb(146, 144, 144));
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+  }

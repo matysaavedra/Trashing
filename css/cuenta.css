@@ -1,23 +1,4 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-image: linear-gradient(135deg, rgb(60, 189, 0), rgb(23, 149, 233), rgb(146, 144, 144));
-    background-size: 500%;
-    animation: fanimado 10s infinite;
-    display: grid;
-    min-height: 100vh;
-    grid-template-rows: auto 1fr auto;
-  }
-
-main{
-	flex: 1  0 auto;
-}
-
-.registrar{
+.Iniciar{
     width: 440px;
     background-color: rgb(137, 245, 105);
     padding: 30px;
@@ -28,7 +9,7 @@ main{
     box-shadow: 7px 13px 37px rgb(144, 142, 245);
 }
 
-.registrar h4{
+.Iniciar h4{
     font-size: 22px;
     margin-bottom: 20px;
 }
@@ -44,24 +25,24 @@ main{
     font-family: 'Times New Roman', Times, serif
 }
 
-.registrar p{
+.Iniciar p{
     height: 40px;
     text-align: center;
     font-size: 16px;
     line-height: 40px;
 }
 
-.registrar a{
+.Iniciar a{
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
-.registrar a:hover{
+.Iniciar a:hover{
     color: black;
     text-decoration: underline;
 }
 
-.registrar .botons{
+.Iniciar .botons{
     width: 100%;
     background: rgb(174, 181, 241);
     border: none;
@@ -74,18 +55,4 @@ main{
 
 footer{
     margin-top: auto;
-}
-
-
-
-@keyframes fanimado {
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
 }
